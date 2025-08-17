@@ -80,23 +80,25 @@
     #page1 .cover video {right: 0;}
     #page1 .cover .title {width: 50%;}
     #page1 .cover .title h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
         letter-spacing: 0.2em;
+        margin-right: 0.3rem;
     }
 
     #page2 .arch {
         width: 80%;
-        height: 80%;
+        height: 70%;
     }
     #page2 .arch .maintitle {font-size: 2rem;}
     #page2 .arch p {
         font-size: 1rem;
-        padding: 30% 10% 0 10%;
+        padding: 25% 10% 0 10%;
+        line-height: 2.5;
     }
 
     #page3 .main_area {
         height: 20%;
-        width: 90%;
+        width: 95%;
     }
     #page3 .main_area>p {
         font-size: 0.8rem;
@@ -123,8 +125,19 @@
     }
     #page3 .etc_area img{width: 3rem;}
 
-    #page4 .container .project .text {font-size: 0.5rem;}
+    #page4 .container .project .text {
+        font-size: 0.5rem;
+        padding: 30px 20px;
+    }
 
+    #page5 .container .project .text {
+        font-size: 0.5rem;
+        padding: 30px 20px;
+    }
+
+    #page5 .container .project{
+        justify-content: center;
+    }
     #page5 .container .project .text p {font-size: 0.5rem;}
 
     #page6 p{
