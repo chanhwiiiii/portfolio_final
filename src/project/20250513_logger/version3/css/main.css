@@ -1,0 +1,225 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* reset */
+*{margin:0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none; color:inherit;}
+/* 기본 색상( css변수는 하이픈 2개로 시작) */
+:root {
+  --main-color:#5d9ab2;
+  --accent-color:#bf6a7a;
+  --dark-main-color:#2b5566;
+  --text-bright-color:#fff;
+  --icon-color:#fff;
+  --icon-bk-color:#ddd;
+  --large-width:1000px;
+}
+/* 기본 설정 : 페이지 전체 */
+body {
+  font-family: '맑은고딕', 'apple sd gothic neo','sans-serif';
+}
+/* 콘텐츠A: 히어로 이미지 */
+.conA {
+  /* color:#fff; */
+  color:var(--text-bright-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 450px;
+  background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)),url(../img/fruits.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+/* .conA .container{outline: 1px dotted red;} */
+.conA img {width: 20%;}
+.conA h1 {
+  margin-bottom: 10px;
+  font-size: 15vw;
+  /* vw : 화면의 너비를 100vw로 하는 단위.
+  1vw = 화면 너비의 1/100 */
+
+  /* Q.화면너비 : 320px 일때, font-size: 48px;이면 몇 vw일까? A.15vw */
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: .2em;
+  margin-left: 0.2em;
+}
+.conA p {font-size: 18px;}
+.conA a {
+  border:3px solid currentColor;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  background: var(--accent-color);
+  color:var(--text-bright-color);  
+  display: inline-block;
+}
+.conA a:hover {
+  background-image: linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.2));
+}
+
+@media screen and (min-width:768px) {
+.conA h1 {font-size: 115px;}
+/* 1vw=7.68 => 15vw=115.2 */
+.conA p {font-size: 24px;}
+}
+
+/* 콘텐츠B : 개요(아이콘+글자) */
+.conB .container {
+  padding: 80px 0 20px;
+}
+.conB .text{
+  padding: 0 20px 60px;
+  text-align: center;
+  /* outline:1px dotted red; */
+}
+.conB .icon {
+  display: inline-block;
+  font-size: 40px;
+  margin-bottom: 20px;
+  width: 2em;
+  height: 2em;
+  background: var(--icon-bk-color);
+  color:var(--icon-color);
+  text-align: center;
+  line-height: 2em;
+  border-radius: 50%;
+
+}
+.conB h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.conB p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  opacity: 0.8;
+}
+.conB a {
+  color:var(--main-color);
+
+}
+.conB a:hover {
+  text-decoration: underline;
+}
+@media screen and (min-width:768px) {
+  .conB .container {
+    display: flex;
+    max-width: var(--large-width);
+    margin:0 auto;
+  }
+  .conB .text {flex:1;}
+}
+/* 콘텐츠C : 개요(이미지+글자) */
+.conC {
+  background: var(--main-color);
+  color: var(--text-bright-color);
+}
+.conC .photo {
+  min-height: 200px;
+  background-image: url(../img/note.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.conC .text{padding: 20px;}
+.conC h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.conC p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  opacity: 0.8;
+}
+.conC a {
+  border:3px solid currentColor;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  background: var(--accent-color);
+  color:var(--text-bright-color);  
+  display: inline-block;
+}
+.conC a:hover {
+  background-image: linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.2));
+}
+
+/* 콘텐츠D : 개요(이미지+글자 -> 반대로 배치) */
+.conD{
+  min-height: 200px;
+  background-image: url(../img/life.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.conD .container {
+  padding-top: 2px;
+}
+/* .conD .photo {
+  min-height: 200px;
+  background-image: url(../img/life.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+.conD .text{
+  background-color: rgba(255,255,255,.5);
+  padding: 20px;
+}
+.conD h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.conD p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  opacity: 0.8;
+}
+.conD a {
+  border:3px solid currentColor;
+  box-shadow: 0 0 0 1px #888; 
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  background: var(--accent-color);
+  color:var(--text-bright-color);  
+  display: inline-block;
+}
+.conD a:hover {
+  background-image: linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.2));
+}
+
+@media screen and (min-width:768px) {
+  .conC .container{
+    display: flex;
+    max-width: var(--large-width);
+    margin:0 auto;
+  }
+  /* .conC .photo{flex: 3;} */
+  .conC .text{
+    padding: 50px;
+    flex: 2;
+  }
+  .conD .container{
+    padding: 40px 0;
+    display: flex;
+    max-width: var(--large-width);
+    margin:0 auto;
+    flex-direction: row-reverse;
+  }
+  /* .conD .photo{flex:0 0 400px;} */
+  .conD .text{
+    padding: 50px;
+    flex: 1;
+  } 
+}

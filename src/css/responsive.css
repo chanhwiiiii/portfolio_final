@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* 반응형 적용 (pcfirst ver.) */
+
+/* 태블릿 이하 */
+@media (max-width:1024px) {
+    #page1 .cover .title h1 {
+        font-size: 2.5rem;
+        letter-spacing: 0.2em;
+        line-height: 3;
+        padding-right: 0.4rem;
+    }
+
+    #page2 .arch {
+        width: 50%;
+        height: 80%;
+    }
+    #page2 .arch .maintitle {font-size: 3.2rem;}
+    #page2 .arch p {
+        line-height: 2;
+        font-size: 1.3rem;
+        padding-top: 30%;
+    }
+    #page2 img {display: none;}
+
+    #page3 .main_area {
+        width: 80%;
+        height: 25%;
+        top: 25%;
+    }
+    #page3 .main_area div {
+        width: 8rem;
+        height: 9rem;
+        border-radius: 15px;
+    }
+    #page3 .main_area div:hover {
+        margin-bottom: 5rem;
+    }
+    #page3 .main_area img{
+        width: 8rem;
+        height: 100%;
+        border-radius: 15px;
+        box-shadow: none;
+    }
+    #page3 .main_area div .desc {
+        padding: 0 10px;
+        font-size: 0.7rem;
+        line-height: 1.8;
+        border-radius: 15px;
+    }
+    #page3 .etc_area {
+        border-radius: 350px 0 0 350px;
+        width: 60%;
+        height: 13%;
+    }
+    #page3 .etc_area img{width: 4rem;}
+
+    #page4 .container {
+        height: 90%;
+        width: 100%;
+        justify-content:center;
+    }
+    #page4 .container .project .text {font-size: 0.8rem;}
+
+    #page5 .container .project .text p { font-size: 0.8rem;}
+
+    #page6 {
+        background: url("../image/vinyl.jpg") no-repeat right/cover fixed;}
+    #page6 p{
+        font-size: 3.2rem;
+        right: 5%;
+    }
+
+}
+
+
+
+/* 모바일 */ 
+@media (max-width: 768px) {
+    #page1 .cover .title h1 {
+        font-size: 2rem;
+        letter-spacing: 0.1em;
+    }
+
+    #page2 .arch .maintitle {font-size: 2.6rem;}
+    #page2 .arch p {
+        font-size: 1.2rem;
+        padding: 30% 10% 0 10%;
+    }
+
+    #page3 .main_area {
+        height: 20%;
+    }
+    #page3 .main_area>p {
+        font-size: 0.8rem;
+    }
+    #page3 .main_area div {
+        width: 5rem;
+        height: 8rem;
+    }
+    #page3 .main_area div:hover {
+        margin-bottom: 4rem;
+    }
+    #page3 .main_area img{width: 5rem;}
+    #page3 .main_area div .desc {
+        padding: 0 5px;
+        font-size: 0.55rem;
+        line-height: 1.6;
+    }
+    #page3 .etc_area {
+        width: 70%;
+        height: 13%;
+    }
+     #page3 .etc_area>p {
+        font-size: 0.8rem;
+    }
+    #page3 .etc_area img{width: 3rem;}
+
+    #page4 .container .project .text {font-size: 0.6rem;}
+
+    #page5 .container .project .text p {
+        font-size: 0.6rem;
+        margin-left: 5px;
+    }
+
+    #page6 p{
+        font-size: 2.5rem;
+        right: 5%;
+    }
+    #page6 footer .contact a {
+        font-size: 0.8rem;
+    }
+    #page6 footer small {
+        font-size: 0.6rem;
+        margin-bottom: 0.625rem;
+    }
+}

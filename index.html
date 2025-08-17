@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChanHwi, KIM Portfolio</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ChanHwi, KIM Portfolio">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="./src/image/preview_image.png">
+  <meta property="og:description" content="Web Publisher Portfolio">
+    <!-- style -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+  <link rel="stylesheet" href="./src/css/main.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+  <!-- 파비콘 -->
+  <link rel="icon" href="./src/image/favicon-16x16.png" sizes="16x16">
+  
+  <!-- jquery cdn -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+          crossorigin="anonymous"></script>
+  <script src="./src/js/jquery.mousewheel.min.js"></script>
+
+  <!-- GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simplex-noise@2.4.0/simplex-noise.min.js"></script>
+
+  <!-- 사용자 정의 js -->
+  <script defer src="./src/js/main.js"></script>
+</head>
+<body>
+
+  <nav>
+    <div class="menu">
+      <a href="#page1">
+        <img src="./src/image/glass_menu.png" alt="menu_icon">
+      </a>
+      <ul class="gnb">
+        <li><a href="#page2">About me</a></li>
+        <li><a href="#page3">Skills</a></li>
+        <li><a href="#page4">Project</a></li>
+        <li><a href="#page6">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  </div>
+  <main>
+      <section id="page1">
+        <div class="cover">
+          <div class="title">
+            <h1>
+              Portfolio<br>
+              OF<br>
+              Publisher<br>
+              /<br>
+              CHAN HWI
+            </h1>
+          </div>
+          <video autoplay muted loop playsinline>
+            <source src="./src/video/borisacket.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+
+      <section id="page2">
+        <h2 class="subtitle">About me</h2>
+        <div class="arch">
+          <h1 class="maintitle">Creative,<br>Sophisticated and Clear</h1>
+            <p>다채롭고 창의적인 디자인과 탄탄한 마크업<br> 기술을 바탕으로, 웹표준을 준수하며 사용자<br> 중심의 웹을 구현하는 퍼블리셔가 되겠습니다.</p>
+          </div>
+        <img src="./src/image/pebbles1.png" class="pebbles pebbles1" alt="pebbles1">
+        <img src="./src/image/pebbles2.png" class="pebbles pebbles2" alt="pebbles2">
+        <button class="more">
+          <a href="./src/김찬휘 이력서 및 자기소개서_최종본.hwp">. more</a>
+        </button>
+      </section>
+
+
+      <section id="page3">
+        <h2 class="subtitle">Skills</h2>
+          <div class="main_area">
+            <p>Main.</p>
+            <div>
+              <img src="./src/image/studyicon/html.png" alt="html">
+              <p class="desc">논리적인 마크업 언어를 사용하여 탄탄한 구조의 웹 페이지를 제작합니다.</p>
+            </div>
+            <div>
+              <img src="./src/image/studyicon/css.png" alt="css">
+              <p class="desc">마크업 언어로 작성된 문서의 레이아웃, 색상, 글꼴 등 시각적인 부분을 제어하여 웹 페이지를 디자인합니다.</p>
+            </div>
+            <div>
+              <img src="./src/image/studyicon/javascript.png" alt="javascript">
+              <p class="desc">사용자와 상호작용하는 기능을 구현해 웹 페이지를 동적으로 만들 수 있습니다.</p>
+            </div>
+            <div>
+              <img src="./src/image/studyicon/scss.png" alt="scss">
+              <p class="desc">보다 더 효율적인 스타일 적용이 가능하며, 변수를 사용해서 중복된 css 값을 관리할 수 있습니다.</p>
+            </div>
+          </div>
+          <div class="etc_area">
+            <img src="./src/image/studyicon/figma.png" alt="figma">
+            <img src="./src/image/studyicon/vue.png" alt="vue">
+            <img src="./src/image/studyicon/jquery.png" alt="jquery">
+            <img src="./src/image/studyicon/mysql.png" alt="mysql">
+            <img src="./src/image/studyicon/react.png" alt="react">
+            <img src="./src/image/studyicon/photoshop.png" alt="photoshop">
+            <p>Etc.</p>
+          </div>
+      </section>
+
+
+      <section id="page4">
+        <h2 class="subtitle">Project</h2>
+        <div class="container">
+          <div class="project">
+            <a href="./src/project/20250805_gallery/index.html"></a>
+            <div class="text">
+              <p>
+                <span class="eng">- Use : html / css / javascript</span><br/>
+                <span class="kor">- 갤러리 형식의 반응형 웹 레이아웃<br>- 창 넓이에 따라 3단계의 레이아웃 변화</span>
+              </p>
+            </div>
+          </div>
+          
+          <div class="project">
+            <a href="./src/project/20250714_nike/index.html"></a>
+            <div class="text">
+              <p>
+                <span class="eng">- Use : html / css </span><br/>
+                <span class="kor">- 동영상 배경의 메뉴가 있는 메인페이지<br>
+                - 동적인 메뉴구현</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="project">
+            <a href="./src/project/20250513_logger/index.html"></a>
+            <div class="text">
+              <p>
+                <span class="eng">- Use : html / css </span><br/>
+                <span class="kor">- 반응형 풀페이지<br>
+                - 메인페이지를 비롯해 총 5개의 페이지 구성</span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="page5">
+        <div class="container">
+          <div class="project">
+            <a href="./src/project/20250721_soccer/index.html"></a>
+            <div class="text">
+              <p>
+                <span class="eng">Use : html / css / javascript</span><br/>
+                <span class="kor">- 스크롤시 z축 이동으로 입체감이 느껴지는 페이지 구현<br>
+                - 마우스 움직임으로 화면 속 이미지를 x,y축 으로 움직임</span>
+              </p>
+            </div>
+          </div>
+          
+          <div class="project">
+            <a href="./src/project/20250729_rotationpage/index.html"></a>
+            <div class="text">
+              <p>
+                <span class="eng">- Use : html / css / javascript</span><br/>
+                <span class="kor">- 로테이션형 메뉴 구현<br>
+                - 다양한 hover효과</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="page6">
+        <p>COME WITH ME!!</p>
+        <footer>
+          <div class="contact">
+            <a href="tel:전화번호">010.7377.9713</a> / 
+            <a href="mailto:chanchao99@naver.com">chanchao99@naver.com</a> / <a href="#">github</a>
+          </div>
+          <small>Copyright 2025. Chan Hwi Kim All Right Reserved.</small>
+        </footer>
+      </section>
+  </main>
+</body>
+</html>

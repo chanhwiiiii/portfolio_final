@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aos animation</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    div {
+      width: 400px;
+      height: 300px;
+      margin: 50px;
+      background-color: #ccc;
+      border: 10px solid gold;
+      padding: 50px;
+    }
+    </style>
+</head>
+<body>
+  <div data-aos="fade-up">1</div>
+  <div data-aos="fade-down">2</div>
+  <div data-aos="fade-right">3</div>
+  <div data-aos="fade-left">4</div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
