@@ -98,7 +98,8 @@
     }
 
     #page3 {
-        background: url(../image/blueblack2.jpg)no-repeat center/cover fixed;
+        background-image: url("../image/blueblack2.jpg");
+        background-size: 768px;
     }
     #page3 .main_area {
         background-color: rgb(1, 1, 27);
@@ -129,7 +130,7 @@
         width: 85%;
         height: 10%;
     }
-     #page3 .etc_area>p {
+    #page3 .etc_area>p {
         font-size: 0.8rem;
     }
     #page3 .etc_area img{width: 3rem;}
@@ -139,6 +140,9 @@
         padding: 30px 20px;
     }
 
+    #page4 .container .project .text p {
+        transform: translateX(-15deg);
+    }
     #page5 .container .project .text {
         font-size: 0.5rem;
         padding: 30px 20px;
@@ -148,11 +152,15 @@
         width: 45%;
         justify-content: center;
     }
-    #page5 .container .project .text p {font-size: 0.5rem;}
+    #page5 .container .project .text p {
+        font-size: 0.5rem;
+        transform: translateX(-15deg);
+    }
 
 
     #page6 {
-    background: url("../image/twinkle.jpg") no-repeat center/cover fixed;
+    background-image: url("../image/twinkle.jpg");
+    background-size: 768px;
     }
     #page6 p{
         font-size: 2rem;

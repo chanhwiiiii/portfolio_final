@@ -204,7 +204,7 @@ section {
 
 /* main - page3 */
 #page3 {
-  background: url(../image/blacksand.jpg) no-repeat center/cover fixed;
+  background: url(../image/blacksand.jpg)no-repeat center/cover fixed;
   position: relative;
   overflow-x: hidden;
 }
