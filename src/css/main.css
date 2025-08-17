@@ -201,23 +201,6 @@ section {
   left: 21.5rem;
   top: 12.5rem;
 }
-.more a {
-  font-family: "Italiana", sans-serif;
-  font-weight: 500;
-  font-size: 0.9rem;
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
-  padding: 5px 10px;
-  transition: 0.4s;
-  border-radius: 50%;
-  background-color:#e7ecf0;
-  border: 1px dotted #8a8a8a;
-}
-.more a:hover {
-  background-color:#8a8a8a;
-  color:#fff;
-}
 
 /* main - page3 */
 #page3 {
