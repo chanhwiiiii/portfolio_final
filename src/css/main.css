@@ -185,7 +185,7 @@ section {
   line-height: 2;
   font-family: "Noto Serif KR", serif;
   font-size: 1.5rem;
-  padding-top: 20%;
+  padding: 20% 10% 0 10%;
   color:#1f1f1f;
 }
 #page2 img {
@@ -371,7 +371,7 @@ section {
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content:center;
+  justify-content:space-evenly;
   position: absolute;
   bottom: 0;
   background: url(../image/metal.jpg) no-repeat center/cover;
