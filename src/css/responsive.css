@@ -98,8 +98,7 @@
     }
 
     #page3 {
-        background-image: url("../image/blueblack2.jpg");
-        background-size: 768px;
+    background: url("../image/blueblack2.jpg") no-repeat center center/cover;
     }
     #page3 .main_area {
         background-color: rgb(1, 1, 27);
@@ -141,6 +140,7 @@
     }
 
     #page4 .container .project .text p {
+        width: 80%;
         transform: translateX(-15deg);
     }
     #page5 .container .project .text {
@@ -159,8 +159,7 @@
 
 
     #page6 {
-    background-image: url("../image/twinkle.jpg");
-    background-size: 768px;
+    background: url("../image/twinkle.jpg") no-repeat center center/cover;
     }
     #page6 p{
         font-size: 2rem;
