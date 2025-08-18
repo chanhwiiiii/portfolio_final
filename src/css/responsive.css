@@ -135,7 +135,7 @@
     }
 
     #page3 {
-    background: url("../image/blueblack2.jpg") no-repeat center/cover fixed;
+    background: url("../image/blueblack2.jpg") no-repeat center/cover;
     }
     #page3 .main_area {
         background-color: rgb(1, 1, 27);
@@ -199,7 +199,7 @@
 
 
     #page6 {
-    background: url("../image/roundocean.jpg") no-repeat center/cover fixed;
+    background: url("../image/roundocean.jpg") no-repeat center/cover;
     }
     #page6 p{
         font-size: 1.9rem;
