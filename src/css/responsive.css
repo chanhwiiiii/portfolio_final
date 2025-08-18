@@ -173,11 +173,14 @@
 
 
     #page6 {
-    background: url("../image/twinkle.jpg") no-repeat center center/cover;
+    background: url("../image/roundocean.jpg") no-repeat center center/cover;
     }
     #page6 p{
-        font-size: 2rem;
-        right: 5%;
+        font-size: 1.9rem;
+        bottom: 27%;
+    }
+    #page6 footer .contact {
+        background-color: rgba(255, 255, 255, 0.7);
     }
     #page6 footer .contact a {
         font-size: 0.65rem;
