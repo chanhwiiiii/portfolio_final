@@ -77,6 +77,9 @@
 
 /* 모바일 */ 
 @media (max-width: 768px) {
+    nav {
+        display: none;
+    }
     #page1 .cover video {right: 0;}
     #page1 .cover .title {width: 50%;}
     #page1 .cover .title h1 {
@@ -134,27 +137,31 @@
     }
     #page3 .etc_area img{width: 3rem;}
 
+    #page4 .container .project {
+        transform: skewX(-10deg);
+    }
     #page4 .container .project .text {
         font-size: 0.5rem;
-        padding: 30px 20px;
+        padding: 30px 15px;
     }
 
     #page4 .container .project .text p {
         width: 80%;
-        transform: translateX(-15deg);
+        transform: skewX(10deg);
+    }
+    
+    #page5 .container .project{
+        transform: skewX(10deg);
+        width: 45%;
+        justify-content: center;
     }
     #page5 .container .project .text {
         font-size: 0.5rem;
         padding: 30px 20px;
     }
-
-    #page5 .container .project{
-        width: 45%;
-        justify-content: center;
-    }
     #page5 .container .project .text p {
         font-size: 0.5rem;
-        transform: translateX(-15deg);
+        transform: skewX(-10deg);
     }
 
 
@@ -166,7 +173,7 @@
         right: 5%;
     }
     #page6 footer .contact a {
-        font-size: 0.8rem;
+        font-size: 0.65rem;
     }
     #page6 footer small {
         font-size: 0.6rem;
