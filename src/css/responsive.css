@@ -81,7 +81,10 @@
         display: none;
     }
     #page1 .cover video {right: 0;}
-    #page1 .cover .title {width: 50%;}
+    #page1 .cover .title {
+        width: 50%;
+        mix-blend-mode:normal;
+    }
     #page1 .cover .title h1 {
         padding-top: 20vh;
         font-size: 1.7rem;
@@ -149,7 +152,6 @@
         width: 80%;
         transform: skewX(10deg);
     }
-    
     #page5 .container .project{
         transform: skewX(10deg);
         width: 45%;
