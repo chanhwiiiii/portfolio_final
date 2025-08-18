@@ -110,7 +110,6 @@ section {
 
 #page1 .cover {
   height: 100vh;
-  /* width: 100vw; */
   position: sticky;
   top: 0;
   left: 0;
