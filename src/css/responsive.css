@@ -121,21 +121,9 @@
         padding: 25% 10% 0 10%;
         line-height: 2.5;
     }
-        #page2 img {
-        position: absolute;
-    }
-    .pebbles1 {
-        right:5%;
-        bottom: 10%;
-    }
-    .pebbles2 {
-        top: 40%;
-        left: 5%;
-        z-index: 3;
-    }
-
+        #page2 img {display: none;}
     #page3 {
-    background: url("../image/blueblack2.jpg") no-repeat center/cover;
+    background: url("../image/blueblack2.jpg") no-repeat center/cover fixed;
     }
     #page3 .main_area {
         background-color: rgb(1, 1, 27);
@@ -199,7 +187,7 @@
 
 
     #page6 {
-    background: url("../image/roundocean.jpg") no-repeat center/cover;
+    background: url("../image/roundocean.jpg") no-repeat center/cover fixed;
     }
     #page6 p{
         font-size: 1.9rem;
