@@ -89,25 +89,24 @@
 
 /* 모바일 */ 
 @media (max-width: 768px) {
-    nav {
-        display: none;
-    }
+    nav {display: none;}
     #page1 .cover video {
     height: 100%;
     top: 0;
     }
     #page1 .cover .title {
         width: 100%;
-        background: rgb(24, 24, 24);
+        background: rgba(24, 24, 24);
         mix-blend-mode:difference;
     }
     #page1 .cover .title h1 {
         padding-top: 20vh;
-        font-size: 2.1rem;
+        font-size: 2rem;
+        line-height: 2.3;
         font-weight: bold;
         letter-spacing: 0.2em;
         margin-right: 0.5rem;
-        color: #fff;
+        color: #ffffff88;
     }
 
     #page2 .arch {
@@ -126,13 +125,11 @@
     }
     #page3 .main_area {
         background-color: rgb(1, 1, 27);
-        outline: 1px solid gray;
         height: 20%;
         width: 95%;
     }
     #page3 .main_area>p {
         font-size: 0.8rem;
-        color:#fff;
     }
     #page3 .main_area div {
         width: 5rem;
@@ -148,8 +145,6 @@
         line-height: 1.6;
     }
     #page3 .etc_area {
-        background-color: #c8c8c8;
-        outline: 1px solid #fff;
         width: 85%;
         height: 10%;
     }
