@@ -21,19 +21,7 @@
         font-size: 1.3rem;
         padding-top: 30%;
     }
-    /* #page2 img {display: none;} */
-    #page2 img {
-        width: 30%;
-        position: absolute;
-    }
-    .pebbles1 {
-        right:5%;
-        bottom: 10%;
-    }
-    .pebbles2 {
-        top: 20%;
-        left: 10%;
-    }
+    #page2 img {display: none;}
 
     #page3 .main_area {
         width: 80%;

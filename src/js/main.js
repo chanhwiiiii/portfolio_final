@@ -61,7 +61,7 @@ gsap.to("#page1 .title", {
 
 //  #page2 마우스 따라 움직이는 이미지
 
-/* $(function () {
+$(function () {
   let baseRight1, baseBottom1, baseLeft2, baseTop2;
 
   function updateBasePositions() {
@@ -69,10 +69,10 @@ gsap.to("#page1 .title", {
     baseBottom1 = $(window).height() * 0.1; // pebbles1 기본 bottom
     baseTop2 = $(window).height() * 0.2;   // 20%로 내려서 보이게
     baseLeft2 = $(window).width() * 0.25; // 25%로 왼쪽으로 이동
-  } */
+  }
 
   // 초기값 계산
-/*   updateBasePositions();
+  updateBasePositions();
 
   // 창 크기 변경될 때 다시 계산
   $(window).on("resize", updateBasePositions);
@@ -91,20 +91,7 @@ gsap.to("#page1 .title", {
       left: baseLeft2 - (posY / 80) // left 대신 right 사용
     });
   });
-}); */
-
-/* // pc가 아닌환경에서는 움직임 없이 img만
-const button = document.getElementById('myButton');
-
-function handleClick(event) {
-  if (window.matchMedia('(max-width: 767px)').matches) {
-    event.preventDefault(); // 이벤트 막기
-    return;
-  }
-  // PC 환경에서만 실행되는 로직
-}
-
-button.addEventListener('click', handleClick); */
+});
 
 
 //  #page3 애니메이션 트리거
