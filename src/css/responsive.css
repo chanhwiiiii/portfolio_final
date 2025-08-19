@@ -101,7 +101,7 @@
     }
     #page1 .cover .title h1 {
         padding-top: 20vh;
-        font-size: 2rem;
+        font-size: 2.3rem;
         line-height: 2.3;
         font-weight: bold;
         letter-spacing: 0.2em;
@@ -121,7 +121,7 @@
     }
         #page2 img {display: none;}
     #page3 {
-    background: url("../image/blueblack2.jpg") no-repeat center/cover fixed;
+    background: url("../image/blueblack2.jpg") no-repeat center/cover;
     }
     #page3 .main_area {
         background-color: rgb(1, 1, 27);
