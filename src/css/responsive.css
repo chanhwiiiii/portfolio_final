@@ -79,8 +79,8 @@
 @media (max-width: 768px) {
     nav {display: none;}
     #page1 .cover video {
-    height: 100%;
-    top: 0;
+        height: 100%;
+        top: 0;
     }
     #page1 .cover .title {
         width: 100%;
@@ -169,7 +169,7 @@
 
 
     #page6 {
-    background: url("../image/roundocean.jpg") no-repeat center/cover;
+        background: url("../image/roundocean.jpg") no-repeat center/cover;
     }
     #page6 p{
         font-size: 1.9rem;

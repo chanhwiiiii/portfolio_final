@@ -11,8 +11,9 @@ html, body {
   margin: 0 auto;
   padding: 0;
   font-size: 16px;
-  scroll-behavior: smooth;
   overflow-x: clip;
+  max-width: 1920px;
+  scroll-behavior: smooth;
 }
 li{list-style: none;}
 a {text-decoration: none; color:inherit;}
@@ -306,7 +307,7 @@ section {
   align-items: center;
   justify-content:space-around;
   overflow-x: clip;
-  background: url(../image/metal.jpg) no-repeat top/cover;
+  background: url(../image/metal.jpg) no-repeat left/cover;
 }
 #page4 .container .project{
   position: relative;
