@@ -154,7 +154,7 @@
         transform: skewX(10deg);
     }
     #page5 .container .project{
-        transform: skewX(10deg);
+        transform: skewX(5deg);
         width: 45%;
         justify-content: center;
     }
@@ -164,7 +164,7 @@
     }
     #page5 .container .project .text p {
         font-size: 0.5rem;
-        transform: skewX(-10deg);
+        transform: skewX(-5deg);
     }
 
 
