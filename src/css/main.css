@@ -378,7 +378,8 @@ section {
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   bottom: 0;
   background: url(../image/metal.jpg) no-repeat center/cover;
@@ -387,7 +388,7 @@ section {
 #page5 .project {
   position: relative;
   box-shadow: -5px 5px 15px 3px silver;
-  width: 33.333%;
+  width: 33%;
   margin:auto;
   height: 90%;
   overflow: hidden;
