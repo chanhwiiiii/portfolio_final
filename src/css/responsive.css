@@ -11,6 +11,7 @@
         padding-right: 0.4rem;
     }
 
+
     #page2 .arch {
         width: 50%;
         height: 80%;
@@ -22,6 +23,7 @@
         padding-top: 30%;
     }
     #page2 img {display: none;}
+
 
     #page3 .main_area {
         width: 80%;
@@ -55,14 +57,15 @@
     }
     #page3 .etc_area img{width: 4rem;}
 
-    #page4 .container {
-        height: 90%;
-        width: 100%;
-        justify-content:center;
+    #page4 .subtitle {color: #fff;}
+    #page4 .container .project .text {
+        width: 80%;
     }
-    #page4 .container .project .text {font-size: 0.8rem;}
+    #page4 .container .project .text p {
+        font-size: 0.7rem;
+    }
 
-    #page5 .container .project .text p { font-size: 0.8rem;}
+    #page5 .container .project .text p {font-size: 0.8rem;}
 
     #page6 {
         background: url("../image/vinyl.jpg") no-repeat right/cover fixed;}
@@ -78,6 +81,7 @@
 /* 모바일 */ 
 @media (max-width: 768px) {
     nav {display: none;}
+
     #page1 .cover video {
         height: 100%;
         top: 0;
@@ -97,6 +101,7 @@
         color: #ffffff88;
     }
 
+
     #page2 .arch {
         width: 80%;
         height: 70%;
@@ -107,7 +112,9 @@
         padding: 25% 10% 0 10%;
         line-height: 2.5;
     }
-        #page2 img {display: none;}
+    #page2 img {display: none;}
+
+
     #page3 {
     background: url("../image/blueblack2.jpg") no-repeat center/cover;
     }
@@ -141,30 +148,33 @@
     }
     #page3 .etc_area img{width: 3rem;}
 
+
     #page4 .container .project {
         transform: skewX(-10deg);
     }
     #page4 .container .project .text {
-        font-size: 0.5rem;
         padding: 30px 15px;
     }
 
     #page4 .container .project .text p {
         width: 80%;
+        font-size: 0.5rem;
         transform: skewX(10deg);
     }
+
     #page5 .container .project{
-        transform: skewX(5deg);
-        width: 45%;
-        justify-content: center;
+        transform: skewX(10deg);
+        width: 35%;
     }
     #page5 .container .project .text {
-        font-size: 0.5rem;
-        padding: 30px 20px;
+        height: 30%;
+        line-height: 2.5;
+        
     }
     #page5 .container .project .text p {
-        font-size: 0.5rem;
-        transform: skewX(-5deg);
+        font-size: 0.6rem;
+        transform: skewX(-10deg);
+        margin: 0 7px;
     }
 
 

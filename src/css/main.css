@@ -297,17 +297,20 @@ section {
 #page4 {
   position: relative;
   overflow-x: hidden;
+  background: url(../image/metal.jpg) no-repeat left/cover;
 }
 #page4 .container {
   height: 90%;
-  width: 100%;
+  width: 80%;
   display: flex;
-  position: absolute;
-  bottom: 0;
+  justify-content: center;
   align-items: center;
-  justify-content:space-around;
-  overflow-x: clip;
-  background: url(../image/metal.jpg) no-repeat left/cover;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  bottom: 0;
+  gap: 1.5rem;
 }
 #page4 .container .project{
   position: relative;
@@ -330,15 +333,7 @@ section {
 #page4 .container .project:nth-child(3) {
   background: url(../image/project_logger.png) no-repeat top/cover;
 }
-#page4 .container .project:hover {
-  box-shadow: none;
-  transform: skewX(0);
-  width: 35%;
-  z-index: 3;
-}
-#page4 .container .project:hover p {
-  display: none;
-}
+
 #page4 .container .project a {
   height: 100%;
   display: block;
@@ -357,6 +352,8 @@ section {
   transform: skewX(15deg);
   display: inline-block;
   width: 80%;
+  margin-left: 5%;
+  font-size: 0.9rem;
 }
 
 #page4 .container .project:hover {
@@ -373,23 +370,25 @@ section {
 #page5 {
   position: relative;
   overflow-x: hidden;
+  background: url(../image/metal.jpg) no-repeat center/cover;
 }
 #page5 .container {
   height: 100%;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
   bottom: 0;
-  background: url(../image/metal.jpg) no-repeat center/cover;
-  overflow-x: clip;
+  gap:2rem;
 }
 #page5 .project {
   position: relative;
   box-shadow: -5px 5px 15px 3px silver;
-  width: 35%;
-  margin:auto;
+  width: 40%;
   height: 90%;
   overflow: hidden;
   transform: skewX(15deg);
@@ -401,15 +400,7 @@ section {
 #page5 .project:last-child {
   background: url(../image/project_rotation.png) no-repeat center/cover;
 }
-#page5 .container .project:hover {
-  box-shadow: none;
-  transform: skewX(0);
-  width: 50%;
-  z-index: 3;
-}
-#page5 .container .project:hover .text {
-  display: none;
-}
+
 #page5 .container .project a {
   height: 100%;
   display: block;
@@ -428,6 +419,15 @@ section {
   transform: skewX(-15deg);
   display: inline-block;
   width: 80%;
+}
+#page5 .container .project:hover {
+  box-shadow: none;
+  transform: skewX(0);
+  width: 50%;
+  z-index: 3;
+}
+#page5 .container .project:hover .text {
+  display: none;
 }
 
 
