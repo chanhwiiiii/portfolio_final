@@ -168,13 +168,11 @@
     }
     #page5 .container .project .text {
         height: 30%;
-        line-height: 2.5;
-        
+        padding: 30px 20px;
     }
     #page5 .container .project .text p {
         font-size: 0.6rem;
         transform: skewX(-10deg);
-        margin: 0 7px;
     }
 
 

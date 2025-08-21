@@ -352,7 +352,6 @@ section {
   transform: skewX(15deg);
   display: inline-block;
   width: 80%;
-  margin-left: 5%;
   font-size: 0.9rem;
 }
 
