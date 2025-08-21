@@ -160,6 +160,7 @@
         width: 80%;
         font-size: 0.5rem;
         transform: skewX(10deg);
+        line-height: 2.3;
     }
 
     #page5 .container .project{
@@ -171,8 +172,9 @@
         padding: 30px 20px;
     }
     #page5 .container .project .text p {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
         transform: skewX(-10deg);
+        line-height: 2.5;
     }
 
 
