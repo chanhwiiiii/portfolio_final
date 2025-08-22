@@ -150,7 +150,7 @@
 
 
     #page4 .container .project {
-        transform: skewX(-10deg);
+        transform: skewX(-5deg);
     }
     #page4 .container .project .text {
         padding: 30px 15px;
@@ -159,12 +159,12 @@
     #page4 .container .project .text p {
         width: 80%;
         font-size: 0.5rem;
-        transform: skewX(10deg);
+        transform: skewX(5deg);
         line-height: 2.3;
     }
 
     #page5 .container .project{
-        transform: skewX(10deg);
+        transform: skewX(5deg);
         width: 35%;
     }
     #page5 .container .project .text {
@@ -173,7 +173,7 @@
     }
     #page5 .container .project .text p {
         font-size: 0.5rem;
-        transform: skewX(-10deg);
+        transform: skewX(-5deg);
         line-height: 2.5;
     }
 
